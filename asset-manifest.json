@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vyomnaut/static/css/main.bab0b925.chunk.css",
+    "main.js": "/vyomnaut/static/js/main.ac887ad4.chunk.js",
+    "main.js.map": "/vyomnaut/static/js/main.ac887ad4.chunk.js.map",
+    "runtime-main.js": "/vyomnaut/static/js/runtime-main.c704426b.js",
+    "runtime-main.js.map": "/vyomnaut/static/js/runtime-main.c704426b.js.map",
+    "static/css/2.2e99a83d.chunk.css": "/vyomnaut/static/css/2.2e99a83d.chunk.css",
+    "static/js/2.3597bfc5.chunk.js": "/vyomnaut/static/js/2.3597bfc5.chunk.js",
+    "static/js/2.3597bfc5.chunk.js.map": "/vyomnaut/static/js/2.3597bfc5.chunk.js.map",
+    "static/js/3.c32d76f9.chunk.js": "/vyomnaut/static/js/3.c32d76f9.chunk.js",
+    "static/js/3.c32d76f9.chunk.js.map": "/vyomnaut/static/js/3.c32d76f9.chunk.js.map",
+    "index.html": "/vyomnaut/index.html",
+    "static/css/2.2e99a83d.chunk.css.map": "/vyomnaut/static/css/2.2e99a83d.chunk.css.map",
+    "static/css/main.bab0b925.chunk.css.map": "/vyomnaut/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.3597bfc5.chunk.js.LICENSE.txt": "/vyomnaut/static/js/2.3597bfc5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c704426b.js",
+    "static/css/2.2e99a83d.chunk.css",
+    "static/js/2.3597bfc5.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.ac887ad4.chunk.js"
+  ]
+}
