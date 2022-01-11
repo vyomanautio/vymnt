@@ -8,7 +8,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-    background: #0f0f0f;
+    background: #0f0f0f !important;
 }
 
 /* ------------------------------------------------------------------ */
@@ -23,7 +23,7 @@ body {
 }
 
 .img-container {
-    border: 2px solid red;
+    border: 2px solid transparent;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -1140,4 +1140,20 @@ footer .social-links li:first-child {
 
 .github-btn {
     background-color: #34495e !important;
+}
+
+.center-text-div {
+    text-align: center !important;
+}
+
+.text-decoration {
+    font-family: 'opensans-light', Times, serif;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.margin-top-1 {
+    margin-top: 1rem;
 }

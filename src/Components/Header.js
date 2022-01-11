@@ -11,7 +11,6 @@ class Header extends Component {
         <div>
           <div className="img-container">
             <img src={'/images/main_bg.png'} alt="boohoo" className="img-to-fit"/>
-
             <div className="logo-div">
               <img src={'/images/vyomnaut.png'} alt="boohoo" className="logo"/>
             </div>
