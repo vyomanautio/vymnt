@@ -10,30 +10,111 @@ function About(props) {
       <Fade duration={1000}>
         <div className="container">
           <div className="row">
+            <div class="col-md-2 d-md-block d-none"></div>
+            <div class="col-md-8 col-12 text-center">
+              <h5 className="text-white text-decoration"><strong>{t('app.about.001')}</strong></h5>
+            </div>
+            <div class="col-md-2 d-md-block d-none"></div>
+          </div>
+          <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-              <h4 className="text-white text-decoration">{t('app.about.001')}</h4>
+              <h5 className="text-white text-decoration"><strong>{t('app.about.002')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
           </div>
-          <div className="row mt-5 mb-2">
+          <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-              <h4 className="text-white text-decoration">{t('app.about.002')}</h4>
+              <h5 className="text-white text-decoration"><strong>{t('app.about.003')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
           </div>
-          <div className="row mt-5 mb-2">
+          <div className="row mt-3">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-              <h4 className="text-white text-decoration">{t('app.about.003')}</h4>
+              <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
           </div>
-          <div className="row mt-5 mb-2">
+          <div className="row mt-3">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-              <h4 className="text-white text-decoration">{t('app.about.004')}</h4>
+              <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div className="row mt-5 mb-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div>
+                <img src={'/images/isroSample.jpeg'} alt="ISRO" class="ml-5"/>
+              </div>
+              <div className="text-center">
+                <h1 className="text-danger-custom cursor-custom">START MINTING NOW</h1>
+              </div>
+              <div className="text-center">
+                <button type="button" class="btn btn-outline-danger cursor-custom">
+                  <i class="fa fa-dot-circle-o fa-lg"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger mx-2 cursor-custom">
+                  <i class="fa fa-dot-circle-o fa-lg"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger cursor-custom">
+                  <i class="fa fa-dot-circle-o fa-lg"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div className="row mt-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 col-12 ms-5">
+              <div className="row">
+                <div class="col-md-6 col-12">
+                  <table className="text-white text-center">
+                      <tr className="border border-white">
+                        <th>
+                          <h4 className="text-white p-4">
+                            SUPER SPACE GEEK CARD
+                          </h4>
+                        </th>
+                      </tr>
+                      <tr className="border">
+                        <td>
+                          <img src={'/images/CARD.png'} alt="ISRO" class="ml-5"/>
+                        </td>
+                      </tr>
+                      <tr className="border border-white">
+                        <td className="p-4 custom-product-width">
+                          {t('app.watch.card')}<br/><br/>
+                          {t('app.watch.card2')}
+                        </td>
+                      </tr>
+                  </table>
+                </div>
+                <div class="col-md-6 col-12">
+                  <table className="text-white text-center">
+                      <tr className="border border-white">
+                        <th>
+                          <h4 className="text-white p-4">
+                            ISRO OFFICIAL WRISTWATCH
+                          </h4>
+                        </th>
+                      </tr>
+                      <tr className="border border-white">
+                        <td>
+                          <img src={'/images/watch.png'} alt="ISRO" class="ml-5"/>
+                        </td>
+                      </tr>
+                      <tr className="border border-white">
+                        <td className="p-4 custom-product-width">
+                          {t('app.watch.discription')}
+                        </td>
+                      </tr>
+                  </table>
+                </div>
+              </div>
             </div>
             <div class="col-md-2"></div>
           </div>

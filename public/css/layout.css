@@ -8,7 +8,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-    background: #0f0f0f !important;
+    background: #000524 !important;
 }
 
 /* ------------------------------------------------------------------ */
@@ -16,9 +16,9 @@ body {
 /* ------------------------------------------------------------------ */
 
 .mainBg {
-    position: relative;
-    height: 100%;
-    width: 100%;
+    position: relative !important;
+    height: 100% !important;
+    width: 100% !important;
 
 }
 
@@ -380,7 +380,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #ebeeee;
+    background: #000524;
     padding-top: 90px;
     padding-bottom: 60px;
 }
@@ -1031,6 +1031,8 @@ footer {
     font-size: 14px;
     text-align: center;
     position: relative;
+    background: #ebeeee;
+    padding-bottom: 5%;
 }
 
 footer a, footer a:visited {
@@ -1156,4 +1158,22 @@ footer .social-links li:first-child {
 
 .margin-top-1 {
     margin-top: 1rem;
+}
+
+.text-danger-custom {
+    color : #ed3b33 !important;
+}
+
+.btn-outline-danger {
+    color: #ed3b33 !important;
+    border-color: #ed3b33 !important;
+}
+
+.cursor-custom{
+    cursor: pointer;
+}
+
+.custom-product-width{
+    max-width: 20px !important;
+    height: 18rem;
 }
