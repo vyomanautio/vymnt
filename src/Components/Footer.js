@@ -18,6 +18,11 @@ class Footer extends Component {
     return (
       <footer>
         <div className="row">
+        <div id="go-top">
+            <a className="smoothscroll" title="Back to Top" href="#home">
+              <i className="icon-up-open"></i>
+            </a>
+          </div>
           <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
@@ -34,11 +39,7 @@ class Footer extends Component {
             </div>
           </Fade>
 
-          <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open"></i>
-            </a>
-          </div>
+          
         </div>
       </footer>
     );

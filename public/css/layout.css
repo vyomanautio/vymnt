@@ -8,7 +8,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-    background: #000524 !important;
+    background: black !important;
 }
 
 /* ------------------------------------------------------------------ */
@@ -23,15 +23,15 @@ body {
 }
 
 .img-container {
-    border: 2px solid transparent;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    border: 2px solid transparent !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
 }
 
 .img-to-fit{
-    width: 100%;
+    width: 100% !important;
 }
 
 .logo-div{
@@ -47,13 +47,13 @@ body {
 }
 
 header {
-    position: relative;
-    height: 800px;
-    min-height: 500px;
-    width: 100%;
+    position: relative !important;
+    height: 800px !important;
+    min-height: 500px !important;
+    width: 100% !important;
 
-    text-align: center;
-    overflow: hidden;
+    text-align: center !important;
+    overflow: hidden !important;
 }
 
 /* vertically center banner section */
@@ -65,12 +65,12 @@ header:before {
 }
 
 header .banner {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 auto;
-    width: 85%;
-    padding-bottom: 30px;
-    text-align: center;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin: 0 auto !important;
+    width: 85% !important;
+    padding-bottom: 30px !important;
+    text-align: center !important;
 }
 
 header .banner-text {
@@ -228,7 +228,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #000524;
+    background: black;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -380,7 +380,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #000524;
+    background: black;
     padding-top: 90px;
     padding-bottom: 60px;
 }
@@ -1092,10 +1092,12 @@ footer .social-links li:first-child {
 
 /* Go To Top Button */
 #go-top {
-    position: absolute;
+    /* position: absolute;
     top: -24px;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -30px; */
+    padding-left: 48%;
+    margin-top: -5%;
 }
 
 #go-top a {
@@ -1176,4 +1178,19 @@ footer .social-links li:first-child {
 .custom-product-width{
     max-width: 20px !important;
     height: 18rem;
+}
+
+.isro-img-custom{
+    width: 10%;
+}
+
+.minting-img-custom{
+    width: 4%;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+    width: 44px !important;
+    height: 44px !important;
+    left: 50.3% !important;
+    margin-left: -26px !important;
 }

@@ -1,108 +1,108 @@
-import React, { Component } from "react";
+import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { useTranslation } from "react-i18next";
+import Fade from "react-reveal";
 
-class Timeline extends Component {
-  render() {
-    if (!this.props.data) return null;
-
+function Timeline(props) {
+  
+    const { t } = useTranslation();
     return (
         <div>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="2011 - present"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'white', color: 'white' }}
+                    contentArrowStyle={{ borderRight: '7px solid  white' }}
+                    date=""
+                    iconStyle={{ background: 'white', color: '#fff' }}
 
                 >
-                    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                    </p>
+                    <div className="text-dark border-bottom">
+                        <h1>STAGE 1</h1>VYOMANAUT ON EARTH
+                    </div>
+                    <div className="text-dark mt-2">
+                        <h5>{t('app.stagemap.s1')}</h5>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2010 - 2011"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
+                    date=""
+                    iconStyle={{ background: 'white', color: 'white' }}
+                    contentStyle={{ background: 'white', color: 'white' }}
                 >
-                    <h3 className="vertical-timeline-element-title">Art Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-                    </p>
+                    <div className="text-dark border-bottom">
+                        <h1>STAGE 2</h1>WELCOME TO PERIORBITAL ATMOSPHERE
+                    </div>
+                    <div className="text-dark mt-2">
+                        <h5>{t('app.stagemap.s2')}</h5>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2008 - 2010"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    date=""
+                    iconStyle={{ background: 'white', color: 'white' }}
 
                 >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-                    <p>
-                        User Experience, Visual Design
-                    </p>
+                    <div className="text-dark border-bottom">
+                        <h1>STAGE 3</h1>SPACING OUT? NOPE! CHECK THE TIME
+                    </div>
+                    <div className="text-dark mt-2">
+                        <h5>{t('app.stagemap.s3')}</h5>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2006 - 2008"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    date=""
+                    iconStyle={{ background: 'white', color: 'white' }}
 
                 >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                    <p>
-                        User Experience, Visual Design
-                    </p>
+                    <div className="text-dark border-bottom">
+                        <h1>STAGE 4</h1>UNIVERSE OF METAVERSE
+                    </div>
+                    <div className="text-dark mt-2">
+                        <h5>{t('app.stagemap.s4')}</h5>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="April 2013"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    date=""
+                    iconStyle={{ background: 'white', color: 'white' }}
 
                 >
-                    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                    <p>
-                        Strategy, Social Media
-                    </p>
+                    <div className="text-dark border-bottom">
+                        <h1>STAGE 5</h1>A HISTORIC WALKTHROUGH
+                    </div>
+                    <div className="text-dark mt-2">
+                        <h5>{t('app.stagemap.s5')}</h5>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="November 2012"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    iconStyle={{ background: 'white', color: '#fff' }}
 
                 >
-                    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design
-                    </p>
+                    <div className="text-dark border-bottom">
+                        <h1>STAGE 6</h1>EVOLUTION OF THE COMMUNITY
+                    </div>
+                    <div className="text-dark mt-2">
+                        <h5>{t('app.stagemap.s6')}</h5>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="2002 - 2006"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-
-                >
-                    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                    <p>
-                        Creative Direction, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                    iconStyle={{ background: 'black', color: '#fff' }}
 
                 />
             </VerticalTimeline>
+            <Fade left duration={1000} distance="40px">
+                <div className="text-center">
+                    <img src={'/images/BILLION_IDNIAN_DREAMS.png'} alt="ISRO" class="mt-5 cursor-custom"/>
+                </div>
+            </Fade>
         </div>
     );
-  }
+  
 }
 
 export default Timeline;

@@ -10,10 +10,10 @@ class Header extends Component {
     return (
         <div>
           <div className="img-container">
-            <img src={'/images/main_bg.png'} alt="boohoo" className="img-to-fit"/>
-            <div className="logo-div">
+            <img src={'/images/astro2.png'} alt="boohoo" className="img-to-fit"/>
+            {/* <div className="logo-div">
               <img src={'/images/vyomnaut.png'} alt="boohoo" className="logo"/>
-            </div>
+            </div> */}
           </div>
         </div>
     );

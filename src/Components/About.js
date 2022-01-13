@@ -11,35 +11,35 @@ function About(props) {
         <div className="container">
           <div className="row">
             <div class="col-md-2 d-md-block d-none"></div>
-            <div class="col-md-8 col-12 text-center">
+            <div class="col-md-8 col-12">
               <h5 className="text-white text-decoration"><strong>{t('app.about.001')}</strong></h5>
             </div>
             <div class="col-md-2 d-md-block d-none"></div>
           </div>
           <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
-            <div class="col-md-8 text-center">
+            <div class="col-md-8 ">
               <h5 className="text-white text-decoration"><strong>{t('app.about.002')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
-            <div class="col-md-8 text-center">
+            <div class="col-md-8 ">
               <h5 className="text-white text-decoration"><strong>{t('app.about.003')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3">
             <div class="col-md-2"></div>
-            <div class="col-md-8 text-center">
+            <div class="col-md-8">
               <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3">
             <div class="col-md-2"></div>
-            <div class="col-md-8 text-center">
+            <div class="col-md-8">
               <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
             </div>
             <div class="col-md-2"></div>
@@ -48,26 +48,20 @@ function About(props) {
             <div class="col-md-2"></div>
             <div class="col-md-8">
               <div>
-                <img src={'/images/isroSample.jpeg'} alt="ISRO" class="ml-5"/>
+                <img src={'/images/isro.png'} alt="ISRO" class="isro-img-custom"/>
               </div>
               <div className="text-center">
                 <h1 className="text-danger-custom cursor-custom">START MINTING NOW</h1>
               </div>
               <div className="text-center">
-                <button type="button" class="btn btn-outline-danger cursor-custom">
-                  <i class="fa fa-dot-circle-o fa-lg"></i>
-                </button>
-                <button type="button" class="btn btn-outline-danger mx-2 cursor-custom">
-                  <i class="fa fa-dot-circle-o fa-lg"></i>
-                </button>
-                <button type="button" class="btn btn-outline-danger cursor-custom">
-                  <i class="fa fa-dot-circle-o fa-lg"></i>
-                </button>
+                <img src={'/images/1.png'} alt="ISRO" class="minting-img-custom cursor-custom"/>
+                <img src={'/images/2.png'} alt="ISRO" class="minting-img-custom cursor-custom mx-2"/>
+                <img src={'/images/3.png'} alt="ISRO" class="minting-img-custom cursor-custom"/>
               </div>
             </div>
             <div class="col-md-2"></div>
           </div>
-          <div className="row mt-5">
+          <div className="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 col-12 ms-5">
               <div className="row">
