@@ -10,7 +10,7 @@ class Header extends Component {
     return (
         <div>
           <div className="img-container">
-            <Flip duration={10000}>
+            <Flip duration={1000}>
               <img src={'/images/astro2.png'} alt="boohoo" className="img-to-fit"/>
             </Flip>
             {/* <div className="logo-div">
