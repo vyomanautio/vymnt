@@ -110,7 +110,7 @@ function Timeline(props) {
             
             <Fade left duration={1000} distance="40px">
                 <div className="text-center">
-                    <img src={'/images/BILLION_IDNIAN_DREAMS.png'} alt="ISRO" class="mt-5 cursor-custom"/>
+                    <img src={'/images/BILLION_IDNIAN_DREAMS.png'} alt="ISRO" class="mt-5 cursor-custom billion-ind-dream"/>
                 </div>
             </Fade>
         </div>
