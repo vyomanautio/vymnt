@@ -62,7 +62,9 @@ function About(props) {
             <div class="col-md-2"></div>
           </div>
           <div className="row">
-            <div class="col-md-2"></div>
+            <div class="col-md-2">
+              
+            </div>
             <div class="col-md-8 col-12 ms-5">
               <div className="row">
                 <div class="col-md-6 col-12">
