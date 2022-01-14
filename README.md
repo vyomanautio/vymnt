@@ -6,9 +6,19 @@
 ```shell
 yarn install
 yarn start
+
+OR
+
+npm install
+npm start
+
 ```
 
 ### 2. Build
 ```shell
 yarn build
+
+OR
+
+npm run build
 ```
