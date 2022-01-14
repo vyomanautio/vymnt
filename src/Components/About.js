@@ -12,38 +12,40 @@ function About(props) {
           <div className="row">
             <div class="col-md-2 d-md-block d-none"></div>
             <div class="col-md-8 col-12">
-              <h5 className="text-white text-decoration"><strong>{t('app.about.001')}</strong></h5>
+              <Fade left>
+                <h5 className="text-white text-decoration"><strong>{t('app.about.001')}</strong></h5>
+              </Fade>
             </div>
             <div class="col-md-2 d-md-block d-none"></div>
           </div>
           <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 ">
-              <h5 className="text-white text-decoration"><strong>{t('app.about.002')}</strong></h5>
+              <Fade right>
+                <h5 className="text-white text-decoration"><strong>{t('app.about.002')}</strong></h5>
+              </Fade>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 ">
-              <h5 className="text-white text-decoration"><strong>{t('app.about.003')}</strong></h5>
+              <Fade left>
+                <h5 className="text-white text-decoration"><strong>{t('app.about.003')}</strong></h5>
+              </Fade>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-              <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
+              <Fade right>
+                <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
+              </Fade>
             </div>
             <div class="col-md-2"></div>
           </div>
-          <div className="row mt-3">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-              <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
-            </div>
-            <div class="col-md-2"></div>
-          </div>
+          
           <div className="row mt-5 mb-5">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -68,29 +70,32 @@ function About(props) {
             <div class="col-md-8 col-12 ms-5">
               <div className="row">
                 <div class="col-md-6 col-12">
-                  <table className="text-white text-center">
-                      <tr className="border border-white">
-                        <th>
-                          <h4 className="text-white p-4">
-                            SUPER SPACE GEEK CARD
-                          </h4>
-                        </th>
-                      </tr>
-                      <tr className="border">
-                        <td>
-                          <img src={'/images/CARD.png'} alt="ISRO" class="ml-5"/>
-                        </td>
-                      </tr>
-                      <tr className="border border-white">
-                        <td className="p-4 custom-product-width">
-                          {t('app.watch.card')}<br/><br/>
-                          {t('app.watch.card2')}
-                        </td>
-                      </tr>
-                  </table>
+                  <Fade duration={1000} left>
+                    <table className="text-white text-center">
+                        <tr className="border border-white">
+                          <th>
+                            <h4 className="text-white p-4">
+                              SUPER SPACE GEEK CARD
+                            </h4>
+                          </th>
+                        </tr>
+                        <tr className="border">
+                          <td>
+                            <img src={'/images/CARD.png'} alt="ISRO" class="ml-5"/>
+                          </td>
+                        </tr>
+                        <tr className="border border-white">
+                          <td className="p-4 custom-product-width">
+                            {t('app.watch.card')}<br/><br/>
+                            {t('app.watch.card2')}
+                          </td>
+                        </tr>
+                    </table>
+                  </Fade>
                 </div>
                 <div class="col-md-6 col-12">
-                  <table className="text-white text-center">
+                  <Fade duration={1000} right>
+                    <table className="text-white text-center">
                       <tr className="border border-white">
                         <th>
                           <h4 className="text-white p-4">
@@ -108,7 +113,9 @@ function About(props) {
                           {t('app.watch.discription')}
                         </td>
                       </tr>
-                  </table>
+                    </table>
+                  </Fade>
+                  
                 </div>
               </div>
             </div>

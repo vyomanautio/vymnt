@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from "react-reveal";
+import Flip from "react-reveal";
 
 class Header extends Component {
   render() {
@@ -10,7 +10,9 @@ class Header extends Component {
     return (
         <div>
           <div className="img-container">
-            <img src={'/images/astro2.png'} alt="boohoo" className="img-to-fit"/>
+            <Flip duration={10000}>
+              <img src={'/images/astro2.png'} alt="boohoo" className="img-to-fit"/>
+            </Flip>
             {/* <div className="logo-div">
               <img src={'/images/vyomnaut.png'} alt="boohoo" className="logo"/>
             </div> */}
