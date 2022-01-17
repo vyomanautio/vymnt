@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Fade from "react-reveal";
 
 class Footer extends Component {
   render() {
@@ -8,7 +7,8 @@ class Footer extends Component {
     const networks = this.props.data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          {/* <a href={network.url}> */}
+          <a href={'/'}>
             <i className={network.className}></i>
           </a>
         </li>
@@ -23,7 +23,6 @@ class Footer extends Component {
               <i className="icon-up-open"></i>
             </a>
           </div>
-          <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
@@ -37,7 +36,6 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
-          </Fade>
 
           
         </div>

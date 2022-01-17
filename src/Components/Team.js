@@ -1,109 +1,67 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
-import Fade from "react-reveal";
+import { useTranslation } from "react-i18next";
 
 let id = 0;
-class Team extends Component {
-  render() {
-    if (!this.props.data) return null;
+function Team(props){
 
-    const projects = this.props.data.members.map(function (projects) {
-      let projectImage = "images/" + projects.image;
+    const { t } = useTranslation();
 
-      return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-          </div>
-        </div>
-      );
-    });
+    
 
     return (
       <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
-          {/* <div className="row">
-            <div className="twelve columns collapsed">
-              <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
+          
+          <div className="row mt-5">
+            <div className="col-md-1">
+              <hr className="custom-css-hr-member"/>
             </div>
-          </div> */}
-          <div className="row">
-            <div className="col-md-1"></div>
             <div className="col-md-10">
               <div className="row">
-                <div className="col-md-2 border border-white ps-0">
-                  <div className="text-white border-end border-bottom border-white p-2">
-                      <strong>FOUNDER</strong>
+                <div className="col-md-2 border border-white pt-4 px-0">
+                  <div className="text-white border border-white custom-label-member">
+                    {t('app.team.founder')}
                   </div>
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <Zmage alt={projects.title} src={'images/members.png'} />
-                      <div style={{ textAlign: "center" }}>{projects.title}</div>
-                    </div>
-                  </div>
+                  <img src={'/images/members.png'} alt="ISRO" class="ml-5"/>
                 </div>
-                <div className="col-md-1 text-white">
-                  <strong>
-                    <hr/>
-                  </strong>
+                <div className="col-md-1 px-0 text-white">
+                  <hr className="custom-css-hr-member"/>
                 </div>
-                <div className="col-md-2 border border-white ps-0">
-                  <div className="text-white border-end border-bottom border-white p-2">
-                      <strong>COMMUNITY DEVLOPER</strong>
+                <div className="col-md-2 border border-white pt-4 px-0">
+                  <div className="text-white border border-white custom-label-member custom-label-member-community-dev">
+                    {t('app.team.community.dev')}
                   </div>
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <Zmage alt={projects.title} src={'images/members.png'} />
-                      <div style={{ textAlign: "center" }}>{projects.title}</div>
-                    </div>
-                  </div>
+                  <img src={'/images/members.png'} alt="ISRO" class="ml-5"/>
                 </div>
-                <div className="col-md-1 text-white">
-                  <strong>
-                    <hr/>
-                  </strong>
+                <div className="col-md-1 px-0 text-white">
+                  <hr className="custom-css-hr-member"/>
                 </div>
-                <div className="col-md-2 border border-white ps-0">
-                  <div className="text-white border-end border-bottom border-white p-2">
-                      <strong>WEB DEVLOPER</strong>
+                <div className="col-md-2 border border-white pt-4 px-0">
+                  <div className="text-white border border-white custom-label-member custom-label-member-web-dev">
+                    {t('app.team.web.dev')}
                   </div>
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <Zmage alt={projects.title} src={'images/members.png'} />
-                      <div style={{ textAlign: "center" }}>{projects.title}</div>
-                    </div>
-                  </div>
+                  <img src={'/images/members.png'} alt="ISRO" class="ml-5"/>
                 </div>
-                <div className="col-md-1 text-white">
-                  <strong>
-                    <hr/>
-                  </strong>
+                <div className="col-md-1 px-0 text-white">
+                  <hr className="custom-css-hr-member"/>
                 </div>
-                <div className="col-md-2 border border-white ps-0">
-                  <div className="text-white border-end border-bottom border-white p-2">
-                      <strong>CONTENT DEVLOPER</strong>
+                <div className="col-md-2 border border-white pt-4 px-0">
+                  <div className="text-white border border-white custom-label-member custom-label-member-community-dev">
+                    {t('app.team.content.dev')}
                   </div>
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <Zmage alt={projects.title} src={'images/members.png'} />
-                      <div style={{ textAlign: "center" }}>{projects.title}</div>
-                    </div>
-                  </div>
+                  <img src={'/images/members.png'} alt="ISRO" class="ml-5"/>
+                </div>
+                <div className="col-md-1 px-0 text-white">
+                  <hr className="custom-css-hr-member"/>
                 </div>
               </div>
             </div>
-            <div className="col-md-1"></div>
+            <div className="col-md-1">
+              <hr className="custom-css-hr-member"/>
+            </div>
           </div>
-        </Fade>
       </section>
     );
-  }
 }
 
 export default Team;

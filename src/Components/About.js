@@ -1,47 +1,36 @@
-import React, { Component } from "react";
-import Fade from "react-reveal";
+import React from "react";
 import { useTranslation } from "react-i18next";
-import { Button, Container, Row } from 'react-bootstrap';
 
 function About(props) {
   const { t } = useTranslation();
   return (
     <section id="about">
-      <Fade duration={1000}>
         <div className="container">
           <div className="row">
             <div class="col-md-2 d-md-block d-none"></div>
             <div class="col-md-8 col-12">
-              <Fade left>
                 <h5 className="text-white text-decoration"><strong>{t('app.about.001')}</strong></h5>
-              </Fade>
             </div>
             <div class="col-md-2 d-md-block d-none"></div>
           </div>
           <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 ">
-              <Fade right>
                 <h5 className="text-white text-decoration"><strong>{t('app.about.002')}</strong></h5>
-              </Fade>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3 mb-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 ">
-              <Fade left>
                 <h5 className="text-white text-decoration"><strong>{t('app.about.003')}</strong></h5>
-              </Fade>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div className="row mt-3">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-              <Fade right>
                 <h5 className="text-white text-decoration"><strong>{t('app.about.004')}</strong></h5>
-              </Fade>
             </div>
             <div class="col-md-2"></div>
           </div>
@@ -53,7 +42,7 @@ function About(props) {
                 <img src={'/images/isro.png'} alt="ISRO" class="isro-img-custom"/>
               </div>
               <div className="text-center">
-                <h1 className="text-danger-custom cursor-custom">START MINTING NOW</h1>
+                <h1 className="text-danger-custom cursor-custom">{t('app.start.minting')}</h1>
               </div>
               <div className="text-center">
                 <img src={'/images/1.png'} alt="ISRO" class="minting-img-custom cursor-custom"/>
@@ -70,12 +59,11 @@ function About(props) {
             <div class="col-md-8 col-12 ms-5">
               <div className="row">
                 <div class="col-md-6 col-12">
-                  <Fade duration={1000} left>
                     <table className="text-white text-center">
                         <tr className="border border-white">
                           <th>
                             <h4 className="text-white p-4">
-                              SUPER SPACE GEEK CARD
+                              {t('app.super.geek.card')}
                             </h4>
                           </th>
                         </tr>
@@ -91,15 +79,13 @@ function About(props) {
                           </td>
                         </tr>
                     </table>
-                  </Fade>
                 </div>
                 <div class="col-md-6 col-12">
-                  <Fade duration={1000} right>
                     <table className="text-white text-center">
                       <tr className="border border-white">
                         <th>
                           <h4 className="text-white p-4">
-                            ISRO OFFICIAL WRISTWATCH
+                            {t('app.isro.watch.official')}
                           </h4>
                         </th>
                       </tr>
@@ -114,7 +100,6 @@ function About(props) {
                         </td>
                       </tr>
                     </table>
-                  </Fade>
                   
                 </div>
               </div>
@@ -122,7 +107,6 @@ function About(props) {
             <div class="col-md-2"></div>
           </div>
         </div>
-      </Fade>
     </section>
   );
 }

@@ -21,6 +21,21 @@ const resources = {
       "app.stagemap.s4":"ENTRY INTO THE NEW WORLD OF METAVERSE! WE WILL MINT OUT DIGITAL COLLECTIBLES AND RELEASE THEM INTO THE UNIVERSE OF METAVERSE.",
       "app.stagemap.s5":"WE WILL BE BUILDING A VR MUSEUM, WHICH WILL BE AN WDUCATIONAL APP THAT WOULD GIVE INSIGHTFUL INFORMATION, FACTS, FIGURES AND VISUALS ON THE INDIAN SPACE INDUSTRY, INCLUDING ISRO AND ITS ACHIEVEMENTS, HISTORICAL PROJECTS AND THEIR WORKS.",
       "app.stagemap.s6":"OUT KINGDOM IS READY! A VIBRANT AND DYNAMIC COMMUNITY OF SPACE ENTHUSIASTS, GEEKS AND AFICIONADOS CELEBRATING INDIA’S FEAST IN SPACE.",
+      "app.start.minting":"START MINTING NOW",
+      "app.super.geek.card":"SUPER SPACE GEEK CARD",
+      "app.isro.watch.official":"ISRO OFFICIAL WRISTWATCH",
+      "app.team.founder":"FOUNDER",
+      "app.team.community.dev":"COMMUNITY DEVELOPER",
+      "app.team.web.dev":"WEB DEVELOPER",
+      "app.team.content.dev":"CONTENT DEVELOPER",
+      "app.stage1":"STAGE 1",
+      "app.stage1,label":"VYOMANAUT ON EARTH",
+      "app.stage2":"STAGE 2",
+      "app.stage2.label":"WELCOME TO PERIORBITAL ATMOSPHERE",
+      "app.stage3":"STAGE 3",
+      "app.stage4":"STAGE 4",
+      "app.stage5":"STAGE 5",
+      "app.stage6":"STAGE 6",
     }
   }
 };

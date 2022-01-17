@@ -2,7 +2,6 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { useTranslation } from "react-i18next";
-import Fade from "react-reveal";
 
 function Timeline(props) {
   
@@ -24,7 +23,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>STAGE 1</h1>VYOMANAUT ON EARTH
+                                <h1>{t('app.stage1')}</h1>{t('app.stage1,label')}
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s1')}</h5>
@@ -37,7 +36,7 @@ function Timeline(props) {
                             contentStyle={{ background: 'white', color: 'white' }}
                         >
                             <div className="text-dark border-bottom">
-                                <h1>STAGE 2</h1>WELCOME TO PERIORBITAL ATMOSPHERE
+                                <h1>{t('app.stage2')}</h1>{t('app.stage2.label')}
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s2')}</h5>
@@ -50,7 +49,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>STAGE 3</h1>SPACING OUT? NOPE! CHECK THE TIME
+                                <h1>{t('app.stage3')}</h1>SPACING OUT? NOPE! CHECK THE TIME
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s3')}</h5>
@@ -63,7 +62,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>STAGE 4</h1>UNIVERSE OF METAVERSE
+                                <h1>{t('app.stage4')}</h1>UNIVERSE OF METAVERSE
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s4')}</h5>
@@ -76,7 +75,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>STAGE 5</h1>A HISTORIC WALKTHROUGH
+                                <h1>{t('app.stage5')}</h1>A HISTORIC WALKTHROUGH
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s5')}</h5>
@@ -89,7 +88,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>STAGE 6</h1>EVOLUTION OF THE COMMUNITY
+                                <h1>{t('app.stage6')}</h1>EVOLUTION OF THE COMMUNITY
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s6')}</h5>
@@ -108,11 +107,9 @@ function Timeline(props) {
                 </div>
             </div>
             
-            <Fade left duration={1000} distance="40px">
                 <div className="text-center">
                     <img src={'/images/BILLION_IDNIAN_DREAMS.png'} alt="ISRO" class="mt-5 cursor-custom billion-ind-dream"/>
                 </div>
-            </Fade>
         </div>
     );
   

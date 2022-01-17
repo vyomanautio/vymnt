@@ -22,29 +22,14 @@
 
     "social":[
       {
-        "name":"facebook",
-        "url":"",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
         "url":"http://twitter.com",
         "className":"fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com",
-        "className":"fa fa-linkedin"
-      },
-      {
         "name":"instagram",
         "url":"http://instagram.com/",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/",
-        "className":"fa fa-github"
       }
     ]
   },
