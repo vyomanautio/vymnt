@@ -1237,10 +1237,29 @@ footer .social-links li:first-child {
     margin-top: -40px !important;
 }
 
-.border-1 {
-    border-color: #8a8585!important;
-    border-width: inherit !important;
+.border-1-custom {
+    /* border-color: #8a8585!important;
+    border-width: inherit !important; */
+    border-width: 1px; border-color: rgb(160,160,255);
 }
+
 .bg-dark-custom{
     background: black;
+}
+
+.table-css-custom-1 {
+    margin-left: 33% !important;
+    z-index: 1;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.table-css-custom-2{
+    margin-left: 15% !important;
+    z-index: 1;
+    width: 300px;
+}
+
+.z-index-rocket{
+    z-index: 0;
 }
