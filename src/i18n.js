@@ -33,9 +33,13 @@ const resources = {
       "app.stage2":"STAGE 2",
       "app.stage2.label":"WELCOME TO PERIORBITAL ATMOSPHERE",
       "app.stage3":"STAGE 3",
+      "app.stage3.label":"SPACING OUT? NOPE! CHECK THE TIME",
       "app.stage4":"STAGE 4",
+      "app.stage4.label":"UNIVERSE OF METAVERSE",
       "app.stage5":"STAGE 5",
+      "app.stage5.label":"A HISTORIC WALKTHROUGH",
       "app.stage6":"STAGE 6",
+      "app.stage6.label":"EVOLUTION OF THE COMMUNITY",
     }
   }
 };

@@ -1224,3 +1224,15 @@ footer .social-links li:first-child {
     opacity: unset !important;
     margin-top: 6rem;
 }
+
+.faq-css-custom{
+    padding-top: 10rem;
+}
+
+.faq-font{
+    font-size: xx-large !important;
+}
+
+.faq-part2-css{
+    margin-top: -40px !important;
+}

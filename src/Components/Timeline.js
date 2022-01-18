@@ -49,7 +49,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>{t('app.stage3')}</h1>SPACING OUT? NOPE! CHECK THE TIME
+                                <h1>{t('app.stage3')}</h1>{t('app.stage3.label')}
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s3')}</h5>
@@ -62,7 +62,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>{t('app.stage4')}</h1>UNIVERSE OF METAVERSE
+                                <h1>{t('app.stage4')}</h1>{t('app.stage4.label')}
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s4')}</h5>
@@ -75,7 +75,7 @@ function Timeline(props) {
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>{t('app.stage5')}</h1>A HISTORIC WALKTHROUGH
+                                <h1>{t('app.stage5')}</h1>{t('app.stage5.label')}
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s5')}</h5>
@@ -83,12 +83,12 @@ function Timeline(props) {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
-                            date="November 2012"
+                            date=""
                             iconStyle={{ background: 'white', color: '#fff' }}
 
                         >
                             <div className="text-dark border-bottom">
-                                <h1>{t('app.stage6')}</h1>EVOLUTION OF THE COMMUNITY
+                                <h1>{t('app.stage6')}</h1>{t('app.stage6.label')}
                             </div>
                             <div className="text-dark mt-2">
                                 <h5>{t('app.stagemap.s6')}</h5>
