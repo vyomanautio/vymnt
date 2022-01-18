@@ -1181,11 +1181,11 @@ footer .social-links li:first-child {
 }
 
 .isro-img-custom{
-    width: 10%;
+    width: 40%;
 }
 
 .minting-img-custom{
-    width: 4%;
+    width: 5%;
 }
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
@@ -1235,4 +1235,12 @@ footer .social-links li:first-child {
 
 .faq-part2-css{
     margin-top: -40px !important;
+}
+
+.border-1 {
+    border-color: #8a8585!important;
+    border-width: inherit !important;
+}
+.bg-dark-custom{
+    background: black;
 }

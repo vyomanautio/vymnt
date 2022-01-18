@@ -9,10 +9,10 @@ function Timeline(props) {
     return (
         <div>
             <div className="row">
-                <div className="col-md-2">
+                <div className="col-md-2 col-2">
                     <img src={'/images/rocket1.png'} alt="ISRO" class=" cursor-custom"/>
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8 col-8">
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -100,7 +100,7 @@ function Timeline(props) {
                         />
                     </VerticalTimeline>
                 </div>
-                <div className="col-md-2 ">
+                <div className="col-md-2 col-2">
                     <span className="align-middle">
                         <img src={'/images/rocket2.png'} alt="ISRO" className="mt-5"/>
                     </span>
