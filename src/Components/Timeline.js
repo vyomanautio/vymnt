@@ -1,5 +1,5 @@
 import React from "react";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { useTranslation } from "react-i18next";
 
@@ -13,13 +13,13 @@ function Timeline(props) {
                     <img src={'/images/rocket1.png'} alt="ISRO" class=" cursor-custom"/>
                 </div>
                 <div className="col-md-8 col-8">
-                    <VerticalTimeline>
+                    {/* <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'white', color: 'white' }}
+                            contentStyle={{ background: 'white', color: 'white' }} //
                             contentArrowStyle={{ borderRight: '7px solid  white' }}
                             date=""
-                            iconStyle={{ background: 'white', color: '#fff' }}
+                            iconStyle={{ background: 'pink', color: 'pink' }}
 
                         >
                             <div className="text-dark border-bottom">
@@ -98,7 +98,45 @@ function Timeline(props) {
                             iconStyle={{ background: 'black', color: '#fff' }}
 
                         />
-                    </VerticalTimeline>
+                    </VerticalTimeline> */}
+                    <div class="timeline">
+                        <div class="container-custom left">
+                            <div class="content-custom border-white border border-2">
+                                <div className="border border-white border-2 timeline-header text-white ps-2"><b>{t('app.stage1')}{' : '}</b><span>{t('app.stage1,label')}</span></div>
+                                <p className="mt-4">{t('app.stagemap.s1')}</p>
+                            </div>
+                        </div>
+                        <div class="container-custom right">
+                            <div class="content-custom border-white border border-2">
+                            <div className="border border-white border-2 timeline-header-right text-white ps-2"><b>{t('app.stage2')}{' : '}</b><span>{t('app.stage2.label')}</span></div>
+                            <p className="mt-4">{t('app.stagemap.s2')}</p>
+                            </div>
+                        </div>
+                        <div class="container-custom left">
+                            <div class="content-custom border-white border border-2">
+                                <div className="border border-white border-2 timeline-header text-white ps-2"><b>{t('app.stage3')}{' : '}</b><span>{t('app.stage3.label')}</span></div>
+                                <p className="mt-4">{t('app.stagemap.s3')}</p>
+                            </div>
+                        </div>
+                        <div class="container-custom right">
+                            <div class="content-custom border-white border border-2">
+                            <div className="border border-white border-2 timeline-header-right text-white ps-2"><b>{t('app.stage4')}{' : '}</b><span>{t('app.stage4.label')}</span></div>
+                            <p className="mt-4">{t('app.stagemap.s4')}</p>
+                            </div>
+                        </div>
+                        <div class="container-custom left">
+                            <div class="content-custom border-white border border-2">
+                                <div className="border border-white border-2 timeline-header text-white ps-2"><b>{t('app.stage5')}{' : '}</b><span>{t('app.stage5.label')}</span></div>
+                                <p className="mt-4">{t('app.stagemap.s5')}</p>
+                            </div>
+                        </div>
+                        <div class="container-custom right">
+                            <div class="content-custom border-white border border-2">
+                            <div className="border border-white border-2 timeline-header-right text-white ps-2"><b>{t('app.stage6')}{' : '}</b><span>{t('app.stage6.label')}</span></div>
+                            <p className="mt-4">{t('app.stagemap.s6')}</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-2 col-2">
                     <span className="align-middle">
