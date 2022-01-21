@@ -31,7 +31,7 @@ body {
 }
 
 .img-to-fit{
-    width: 100% !important;
+    width: 90% !important;
 }
 
 .logo-div{
@@ -1026,7 +1026,7 @@ call-to-action .button {
 
 footer {
     padding-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: unset;
     color: #303030;
     font-size: 14px;
     text-align: center;
@@ -1199,26 +1199,6 @@ footer .social-links li:first-child {
     width: 20% !important;
 }
 
-.custom-label-member {
-    width: 50%;
-    text-align: center;
-    font-weight: 900;
-    padding-top: 4px;
-    left: 0;
-    margin-top: -2.33rem;
-    background: black;
-    margin-left: -1px;
-    font-size: 10px;
-}
-
-.custom-label-member-community-dev {
-    width: 90% !important;
-}
-
-.custom-label-member-web-dev {
-    width: 60% !important;
-}
-
 .custom-css-hr-member{
     color: white !important;
     opacity: unset !important;
@@ -1263,3 +1243,124 @@ footer .social-links li:first-child {
 .z-index-rocket{
     z-index: 0;
 }
+
+.product-height {
+    height: 310px;
+}
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .isro-img-custom{
+        width: 10%;
+        margin-left: 10px;
+    }
+    .table-css-custom-1 {
+        margin-left: -5% !important;
+        z-index: 1;
+        width: 200px;
+        padding-left: 20px;
+    }
+    
+    .table-css-custom-2{
+        margin-left: 0% !important;
+        z-index: 1;
+        width: 200px;
+    }
+    .product-height {
+        height: 200px;
+    }
+    .custom-product-width{
+        max-width: 20px !important;
+        height: 28.5rem;
+    }
+    .custom-label-member {
+        width: 50%;
+        text-align: center;
+        font-weight: 900;
+        padding-top: 4px;
+        left: 0;
+        margin-top: -2.33rem;
+        background: black;
+        margin-left: -1px;
+        font-size: 5px;
+    }
+    .margin-left-team-custom{
+        margin-left: 30px;
+    }
+}
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .isro-img-custom{
+        width: 40%;
+        margin-left: unset;
+    }
+    .table-css-custom-1 {
+        margin-left: -10% !important;
+        z-index: 1;
+        width: 300px;
+        padding-left: 20px;
+    }
+    
+    .table-css-custom-2{
+        margin-left: -25% !important;
+        z-index: 1;
+        width: 300px;
+    }
+    .product-height {
+        height: 310px;
+    }
+    .custom-product-width{
+        max-width: 20px !important;
+        height: 18rem;
+    }
+    .custom-label-member {
+        width: 60%;
+        text-align: center;
+        font-weight: 900;
+        padding-top: 4px;
+        left: 0;
+        margin-top: -2.33rem;
+        background: black;
+        margin-left: -1px;
+        font-size: 5px;
+    }
+    .custom-label-member-community-dev {
+        width: 90% !important;
+    }
+    
+    .custom-label-member-web-dev {
+        width: 90% !important;
+    }
+    .margin-left-team-custom{
+        margin-left: unset;
+    }
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .table-css-custom-1 {
+        margin-left: 33% !important;
+        z-index: 1;
+        width: 300px;
+        padding-left: 20px;
+    }
+    
+    .table-css-custom-2{
+        margin-left: 15% !important;
+        z-index: 1;
+        width: 300px;
+    }
+    .custom-label-member {
+        width: 50%;
+        text-align: center;
+        font-weight: 900;
+        padding-top: 4px;
+        left: 0;
+        margin-top: -2.33rem;
+        background: black;
+        margin-left: -1px;
+        font-size: 10px;
+    }
+    .margin-left-team-custom{
+        margin-left: unset;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

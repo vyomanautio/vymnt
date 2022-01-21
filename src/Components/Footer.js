@@ -16,7 +16,9 @@ class Footer extends Component {
     });
 
     return (
-      <footer>
+      <div>
+        <img src={'/images/gradient.png'} alt="ISRO" class="fix-img-btm" />
+        <footer>
         <div className="row">
         <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
@@ -40,6 +42,7 @@ class Footer extends Component {
           
         </div>
       </footer>
+      </div>
     );
   }
 }

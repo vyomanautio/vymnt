@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,Fragment } from "react";
 
 class Header extends Component {
   render() {
@@ -6,11 +6,20 @@ class Header extends Component {
 
 
     return (
-        <div>
-          <div className="img-container">
-            <img src={'/images/astro2.png'} alt="boohoo" className="img-to-fit"/>
+        // <div>
+        //   <div className="img-container">
+        //     <img src={'/images/new/asto 1.png'} alt="boohoo" className="img-to-fit"/>
+        //   </div>
+        // </div>
+        <Fragment>
+          <div className="row">
+            <div className="col-md-1 col-12"></div>
+            <div className="col-md-10 col-12 text-center">
+              <img src={'/images/new/asto 1.png'} alt="boohoo" className="img-to-fit"/>
+            </div>
+            <div className="col-md-1 col-12"></div>
           </div>
-        </div>
+        </Fragment>
     );
   }
 }

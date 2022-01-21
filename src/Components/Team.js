@@ -12,10 +12,10 @@ function Team(props){
     return (
       <section id="portfolio">
           <div className="row mt-5">
-            <div className="col-md-1 col-1">
+            <div className="col-md-1 col-1 d-md-block d-none">
               <hr className="custom-css-hr-member"/>
             </div>
-            <div className="col-md-10 col-10">
+            <div className="col-md-10 col-12 margin-left-team-custom">
               <div className="row">
                 <div className="col-md-2 col-2 border border-white pt-4 px-0">
                   <div className="text-white border border-white custom-label-member">
@@ -55,7 +55,7 @@ function Team(props){
                 </div>
               </div>
             </div>
-            <div className="col-md-1 col-1">
+            <div className="col-md-1 col-1 d-md-block d-none">
               <hr className="custom-css-hr-member"/>
             </div>
           </div>
