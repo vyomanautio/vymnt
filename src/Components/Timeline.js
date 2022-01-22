@@ -8,8 +8,8 @@ function Timeline(props) {
     return (
         <div>
             <div className="row">
-                <div className="col-md-2 col-2">
-                    <img src={'/images/rocket1.png'} alt="ISRO" class=" cursor-custom"/>
+                <div className="col-md-2 col-3">
+                    <img src={'/images/GSLV1A.png'} alt="ISRO" class=" cursor-custom GSLV1A-custom"/>
                 </div>
                 <div className="col-md-8 col-8">
                     <div class="timeline">
@@ -51,9 +51,9 @@ function Timeline(props) {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-2 col-2">
+                <div className="col-md-2 col-4 pt-md-5 pt-none">
                     <span className="align-middle">
-                        <img src={'/images/rocket2.png'} alt="ISRO" className="mt-5"/>
+                        <img src={'/images/sattelitetilted.png'} alt="ISRO" className="mt-5"/>
                     </span>
                 </div>
             </div>

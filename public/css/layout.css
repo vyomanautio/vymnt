@@ -382,7 +382,7 @@ ul#nav li.current a {
 #portfolio {
     background: black;
     padding-top: 90px;
-    padding-bottom: 60px;
+    padding-bottom: unset;
 }
 
 #portfolio h1 {
@@ -1242,6 +1242,10 @@ footer .social-links li:first-child {
 
 .z-index-rocket{
     z-index: 0;
+}
+
+.fix-img-btm {
+    margin-bottom: -100px;
 }
 
 /*  */
