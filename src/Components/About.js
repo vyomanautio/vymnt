@@ -7,30 +7,38 @@ function About(props) {
     <section id="about">
       <div className="container">
         <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom"></div>
+          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom pt-3 float-end">
+            <div className="float-end text-white">{'001.'}</div>
+          </div>
           <div class="col-lg-6 col-md-8 col-10   border border-1-custom pb-4 pe-4">
-            <h5 className="text-white text-decoration">{t('app.about.001')}</h5>
+            <h5 className="text-white text-decoration pt-2">{t('app.about.001')}</h5>
           </div>
           <div class="col-lg-3 col-md-2 col-1 border-top   border-1-custom"></div>
         </div>
         <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
+          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom pt-3 float-end">
+            <div className="float-end text-white">{'002.'}</div>
+          </div>
           <div class="col-lg-6 col-md-8 col-10   border border-1-custom pb-4 pe-4">
-            <h5 className="text-white text-decoration">{t('app.about.002')}</h5>
+            <h5 className="text-white text-decoration pt-2">{t('app.about.002')}</h5>
           </div>
           <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
         </div>
         <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom"></div>
+          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom pt-3 float-end">
+            <div className="float-end text-white">{'003.'}</div>
+          </div>
           <div class="col-lg-6 col-md-8 col-10   border border-1-custom pb-4 pe-4">
-            <h5 className="text-white text-decoration">{t('app.about.003')}</h5>
+            <h5 className="text-white text-decoration pt-2">{t('app.about.003')}</h5>
           </div>
           <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
         </div>
         <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom"></div>
+          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom pt-3 float-end">
+            <div className="float-end text-white">{'004.'}</div>
+          </div>
           <div class="col-lg-6 col-md-8 col-10   border border-1-custom pb-4 pe-4">
-            <h5 className="text-white text-decoration">{t('app.about.004')}</h5>
+            <h5 className="text-white text-decoration pt-2">{t('app.about.004')}</h5>
           </div>
           <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
         </div>
@@ -73,7 +81,7 @@ function About(props) {
               </tr>
               <tr className="border">
                 <td>
-                  <img src={'/images/CARD.png'} alt="ISRO" class="ml-5 product-height" />
+                  <img src={'/images/2.gif'} alt="ISRO" class="ml-5 product-height" />
                 </td>
               </tr>
               <tr className="border border-white">
@@ -96,7 +104,7 @@ function About(props) {
               </tr>
               <tr className="border border-white">
                 <td>
-                  <img src={'/images/new/watchGif.gif'} alt="ISRO" class="ml-5 product-height" />
+                  <img src={'/images/watchGif.gif'} alt="ISRO-watch" class="ml-5 product-height-2" />
                 </td>
               </tr>
               <tr className="border border-white">

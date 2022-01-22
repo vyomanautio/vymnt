@@ -19,29 +19,22 @@ class Footer extends Component {
       <div>
         <img src={'/images/gradient.png'} alt="ISRO" class="fix-img-btm" />
         <footer>
-        <div className="row">
-        <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+          <div className="row">
+            <div id="go-top">
+              {/* <a className="smoothscroll" title="Back to Top" href="#home">
               <i className="icon-up-open"></i>
-            </a>
-          </div>
-            <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
-
-              <ul className="copyright">
-                <li>&copy; Copyright 2021 Dev</li>
-                <li>
-                  Design by{" "}
-                  <a title="Dev" href="">
-                    Dev
-                  </a>
-                </li>
-              </ul>
+            </a> */}
             </div>
-
-          
-        </div>
-      </footer>
+            <div>
+              <center>
+                <ul className="social-links">{networks}</ul>
+              </center>
+              <center className="text-dark">
+                &copy; Copyright 2022
+              </center>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }

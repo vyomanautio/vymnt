@@ -1244,9 +1244,7 @@ footer .social-links li:first-child {
     z-index: 0;
 }
 
-.product-height {
-    height: 310px;
-}
+/*  */
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 * {
@@ -1408,6 +1406,10 @@ footer .social-links li:first-child {
     .product-height {
         height: 200px;
     }
+    .product-height-2 {
+        padding-top: unset;
+        padding-bottom: unset;
+    }
     .custom-product-width{
         max-width: 20px !important;
         height: 28.5rem;
@@ -1424,7 +1426,7 @@ footer .social-links li:first-child {
         font-size: 5px;
     }
     .margin-left-team-custom{
-        margin-left: 30px;
+        margin-left: unset;
     }
     .timeline-header{
         margin-top: -30px;
@@ -1439,12 +1441,15 @@ footer .social-links li:first-child {
         margin-left: -32px;
         background: black;
     }
+    .billion-ind-dream{
+        width: 50% !important;
+    }
 }
 @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
 @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
     .isro-img-custom{
         width: 40%;
-        margin-left: unset;
+        margin-left: 5px;
     }
     .table-css-custom-1 {
         margin-left: -10% !important;
@@ -1460,6 +1465,10 @@ footer .social-links li:first-child {
     }
     .product-height {
         height: 310px;
+    }
+    .product-height-2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     .custom-product-width{
         max-width: 20px !important;
@@ -1498,6 +1507,11 @@ footer .social-links li:first-child {
         width: 150px;
         margin-left: -9px;
         background: black;
+        text-align: end;
+    }
+    .billion-ind-dream{
+        width: 30% !important;
+        margin-top: 5% !important;
     }
 }
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 

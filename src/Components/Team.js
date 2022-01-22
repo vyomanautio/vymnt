@@ -11,7 +11,7 @@ function Team(props){
 
     return (
       <section id="portfolio">
-          <div className="row mt-5">
+          {/* <div className="row mt-5">
             <div className="col-md-1 col-1 d-md-block d-none">
               <hr className="custom-css-hr-member"/>
             </div>
@@ -58,7 +58,7 @@ function Team(props){
             <div className="col-md-1 col-1 d-md-block d-none">
               <hr className="custom-css-hr-member"/>
             </div>
-          </div>
+          </div> */}
           <div className="row faq-css-custom">
             <div className="col-md-5 col-5 border-bottom border-white pb-0 ">
               <h1 className="text-white faq-font float-end me-4">FAQ ?</h1>
