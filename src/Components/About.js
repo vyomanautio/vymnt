@@ -70,11 +70,11 @@ function About(props) {
         </div>
         <br/>
         <div className="row mt-4 bg-dark-custom">
-          <div className="col-lg-5 col-md-4 col-6">
+          <div className="col-lg-5 col-md-4 col-3">
             <table className="text-white text-center table-css-custom-1">
               <tr className="border border-white">
                 <th>
-                  <div className="text-white p-4">
+                  <div className="text-white p-4 custom-header-peod-height">
                     {t('app.super.geek.card')}
                   </div>
                 </th>
@@ -84,25 +84,25 @@ function About(props) {
                   <img src={'/images/2.gif'} alt="ISRO" class="ml-5 product-height" />
                 </td>
               </tr>
-              <tr className="border border-white">
+              <tr className="border-top border-start border-end border-white">
                 <td className="p-4 custom-product-width">
                   {t('app.watch.card')}<br /><br />
                   {t('app.watch.card2')}
-                  <div className="text-center mt-4">
-                    <button type="button" class="btn btn-outline-secondary custom-cursor" disabled>
-                      {'Coming Soon'}
-                    </button>
-                  </div>
                 </td>
+              </tr>
+              <tr className="border-bottom  border-start border-end border-white">
+                  <div className="text-center pb-3">
+                    <button type="button" class="btn btn-outline-secondary custom-cursor" disabled>{'Coming Soon'}</button>
+                  </div>
               </tr>
             </table>
           </div>
-          <div className="col-lg-2 col-md-4 col-2 d-md-block d-none"></div>
-          <div className="col-lg-5 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-4 d-md-block d-none"></div>
+          <div className="col-lg-5 col-md-4 col-3">
             <table className="text-white text-center table-css-custom-2">
               <tr className="border border-white">
                 <th>
-                  <div className="text-white p-4">
+                  <div className="text-white p-4 custom-header-peod-height">
                     {t('app.isro.watch.official')}<br/>
                   </div>
                 </th>
@@ -112,13 +112,15 @@ function About(props) {
                   <img src={'/images/watchGif.gif'} alt="ISRO-watch" class="ml-5 product-height-2" />
                 </td>
               </tr>
-              <tr className="border border-white">
+              <tr className="border-top border-start border-end border-white">
                 <td className="p-4 custom-product-width">
                   {t('app.watch.discription')}
-                  <div className="text-center">
-                    <button type="button" class="btn btn-outline-secondary margin-top-watch-custom custom-cursor" disabled>{'Coming Soon'}</button>
-                  </div>
                 </td>
+              </tr>
+              <tr className="border-bottom  border-start border-end border-white">
+                  <div className="text-center pb-3">
+                    <button type="button" class="btn btn-outline-secondary custom-cursor" disabled>{'Coming Soon'}</button>
+                  </div>
               </tr>
             </table>
           </div>
