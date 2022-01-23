@@ -9,7 +9,7 @@ class Footer extends Component {
         <li key={network.name}>
           {/* <a href={network.url}> */}
           <a href={'/'}>
-            <i className={network.className}></i>
+            <i className={network.className+' text-white'}></i>
           </a>
         </li>
       );
@@ -20,17 +20,13 @@ class Footer extends Component {
         <img src={'/images/gradient.png'} alt="ISRO" class="fix-img-btm" />
         <footer>
           <div className="row">
-            <div id="go-top">
-              {/* <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open"></i>
-            </a> */}
-            </div>
+            <div id="go-top"></div>
             <div>
               <center>
-                <ul className="social-links">{networks}</ul>
+                <ul className="social-links text-white">{networks}</ul>
               </center>
-              <center className="text-dark">
-                &copy; Copyright 2022
+              <center >
+                <h5 className="text-white">&copy; Copyright 2022</h5>
               </center>
             </div>
           </div>

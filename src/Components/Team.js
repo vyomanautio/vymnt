@@ -59,6 +59,9 @@ function Team(props){
               <hr className="custom-css-hr-member"/>
             </div>
           </div> */}
+          <div className="text-center watch_banner-custom-css">
+            <img src={'/images/Watch_banner.png'} alt="boohoo" className="img-to-fit"/>
+          </div>
           <div className="row faq-css-custom">
             <div className="col-md-5 col-5 border-bottom border-white pb-0 ">
               <h1 className="text-white faq-font float-end me-4">FAQ ?</h1>

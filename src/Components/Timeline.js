@@ -58,9 +58,9 @@ function Timeline(props) {
                 </div>
             </div>
             
-                <div className="text-center">
-                    <img src={'/images/new/Billiontype.svg'} alt="ISRO" class="mt-5 cursor-custom billion-ind-dream"/>
-                </div>
+            <div className="text-center">
+                    <img src={'/images/new/Billiontype.svg'} alt="ISRO" class="cursor-custom billion-ind-dream"/>
+            </div>
         </div>
     );
   
