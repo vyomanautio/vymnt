@@ -88,6 +88,11 @@ function About(props) {
                 <td className="p-4 custom-product-width">
                   {t('app.watch.card')}<br /><br />
                   {t('app.watch.card2')}
+                  <div className="text-center mt-4">
+                    <button type="button" class="btn btn-outline-secondary custom-cursor" disabled>
+                      {'Coming Soon'}
+                    </button>
+                  </div>
                 </td>
               </tr>
             </table>
@@ -98,7 +103,7 @@ function About(props) {
               <tr className="border border-white">
                 <th>
                   <div className="text-white p-4">
-                    {t('app.isro.watch.official')}
+                    {t('app.isro.watch.official')}<br/>
                   </div>
                 </th>
               </tr>
@@ -110,6 +115,9 @@ function About(props) {
               <tr className="border border-white">
                 <td className="p-4 custom-product-width">
                   {t('app.watch.discription')}
+                  <div className="text-center">
+                    <button type="button" class="btn btn-outline-secondary margin-top-watch-custom custom-cursor" disabled>{'Coming Soon'}</button>
+                  </div>
                 </td>
               </tr>
             </table>

@@ -6,19 +6,15 @@ class Header extends Component {
 
 
     return (
-        // <div>
-        //   <div className="img-container">
-        //     <img src={'/images/new/asto 1.png'} alt="boohoo" className="img-to-fit"/>
-        //   </div>
-        // </div>
         <Fragment>
           <div className="row">
-            <div className="col-md-1 col-12"></div>
-            <div className="col-md-10 col-12 text-center">
-              {/* <img src={'/images/new/asto 1.png'} alt="boohoo" className="img-to-fit"/> */}
-              <img src={'/images/astro2.png'} alt="boohoo" className="img-to-fit"/>
+            <div className="col-md-12 col-12  img-set-background">
+              <h1>
+              <button type="button" class="cursor-custom btn btn-outline-secondary float-end mt-5 me-md-5 me-3" disabled>
+                {'Connect'}
+              </button>
+              </h1>
             </div>
-            <div className="col-md-1 col-12"></div>
           </div>
         </Fragment>
     );

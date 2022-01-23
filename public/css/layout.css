@@ -1249,6 +1249,29 @@ footer .social-links li:first-child {
     z-index: 0;
 }
 
+.btn-outline-secondary {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
+    color: white !important;
+    background-color: transparent;
+    opacity: unset !important;
+}
+
+.img-set-background{
+    background: url("../images/astro2.png") no-repeat center;
+    height: 500px;
+    width: 100%;
+}
+
+.footer-gradinent-btm{
+    margin-top: 25%;
+    background: url("../images/gradient.png") no-repeat center;
+    height: 300px;
+    width: 100%;
+}
 /*  */
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -1460,6 +1483,9 @@ footer .social-links li:first-child {
         margin-top: -86px;
         margin-bottom: -90px;
     }
+    .margin-top-watch-custom {
+        margin-top: 260px !important;
+    }
 }
 @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
 @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
@@ -1539,6 +1565,9 @@ footer .social-links li:first-child {
     .watch_banner-custom-css {
         margin-top: -86px;
         margin-bottom: -120px;
+    }
+    .margin-top-watch-custom {
+        margin-top: 150px !important;
     }
 }
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
