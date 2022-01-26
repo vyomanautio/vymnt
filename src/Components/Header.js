@@ -10,9 +10,9 @@ class Header extends Component {
           <div className="row">
             <div className="col-md-12 col-12  img-set-background">
               <h1>
-              <button type="button" class="cursor-custom btn btn-outline-secondary float-end mt-5 me-md-5 me-3" disabled>
+              {/* <button type="button" class="cursor-custom btn btn-outline-secondary float-end mt-5 me-md-5 me-3" disabled>
                 {'Connect'}
-              </button>
+              </button> */}
               </h1>
             </div>
           </div>

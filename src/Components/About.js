@@ -7,6 +7,32 @@ function About(props) {
     <section id="about">
       <div className="container">
         <div className="row">
+          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom"></div>
+          <div class="col-lg-6 col-md-8 col-10 border-top border-start border-end border-1-custom">
+            <div className="row">
+              <div className="col-md-3">
+                <img src={'/images/isro.png'} alt="ISRO" class="isro-img-custom" />
+              </div>
+              <div className="col-md-6 text-center pb-2">
+                <h1 className="text-danger-custom cursor-custom mt-4">{t('app.start.minting')}</h1>
+              </div>
+              <div className="col-md-3"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
+        </div>
+        <div className="row">
+          <div class="col-lg-3 col-md-2 col-1 border-top border-bottom border-1-custom"></div>
+          <div class="col-lg-6 col-md-8 col-10 border-top border-start border-end border-1-custom pt-4 pb-4 z-index-rocket">
+            <div className="text-center">
+              <img src={'/images/1.png'} alt="ISRO" class="minting-img-custom cursor-custom" />
+              <img src={'/images/2.png'} alt="ISRO" class="minting-img-custom cursor-custom mx-2" />
+              <img src={'/images/3.png'} alt="ISRO" class="minting-img-custom cursor-custom" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-2 col-1 border-top border-bottom border-1-custom"></div>
+        </div>
+        <div className="row">
           <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom pt-3 float-end">
             <div className="float-end text-white">{'001.'}</div>
           </div>
@@ -34,43 +60,17 @@ function About(props) {
           <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
         </div>
         <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom pt-3 float-end">
+          <div class="col-lg-3 col-md-2 col-1 border-bottom border-top  border-1-custom pt-3 float-end">
             <div className="float-end text-white">{'004.'}</div>
           </div>
           <div class="col-lg-6 col-md-8 col-10   border border-1-custom pb-4 pe-4">
             <h5 className="text-white text-decoration pt-2">{t('app.about.004')}</h5>
           </div>
-          <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
-        </div>
-        <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top  border-1-custom"></div>
-          <div class="col-lg-6 col-md-8 col-10   border border-1-custom">
-            <div className="row">
-              <div className="col-md-3">
-                <img src={'/images/isro.png'} alt="ISRO" class="isro-img-custom" />
-              </div>
-              <div className="col-md-6 text-center pb-2">
-                <h1 className="text-danger-custom cursor-custom mt-4">{t('app.start.minting')}</h1>
-              </div>
-              <div className="col-md-3"></div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-2 col-1 border-top border-1-custom"></div>
-        </div>
-        <div className="row">
-          <div class="col-lg-3 col-md-2 col-1 border-top border-bottom border-1-custom"></div>
-          <div class="col-lg-6 col-md-8 col-10   border border-1-custom pt-4 pb-4 z-index-rocket">
-            <div className="text-center">
-              <img src={'/images/1.png'} alt="ISRO" class="minting-img-custom cursor-custom" />
-              <img src={'/images/2.png'} alt="ISRO" class="minting-img-custom cursor-custom mx-2" />
-              <img src={'/images/3.png'} alt="ISRO" class="minting-img-custom cursor-custom" />
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-2 col-1 border-top border-bottom border-1-custom"></div>
+          <div class="col-lg-3 col-md-2 col-1 border-bottom border-top border-1-custom"></div>
         </div>
         <br/>
         <div className="row mt-4 bg-dark-custom">
-          <div className="col-lg-5 col-md-4 col-3">
+          <div className="col-lg-5 col-md-4 col-12">
             <table className="text-white text-center table-css-custom-1">
               <tr className="border border-white">
                 <th>
@@ -97,8 +97,8 @@ function About(props) {
               </tr>
             </table>
           </div>
-          <div className="col-lg-2 col-md-4 col-4 d-md-block d-none"></div>
-          <div className="col-lg-5 col-md-4 col-3">
+          <div className="col-lg-2 col-md-4 col-4 d-lg-block d-md-block d-none"></div>
+          <div className="col-lg-5 col-md-4 col-12">
             <table className="text-white text-center table-css-custom-2">
               <tr className="border border-white">
                 <th>
@@ -114,7 +114,8 @@ function About(props) {
               </tr>
               <tr className="border-top border-start border-end border-white">
                 <td className="p-4 custom-product-width">
-                  {t('app.watch.discription')}
+                  {t('app.watch.discription')}<br/><br/>
+                  {t('app.watch.discription2')}
                 </td>
               </tr>
               <tr className="border-bottom  border-start border-end border-white">
