@@ -57,9 +57,17 @@ function Timeline(props) {
                     </span>
                 </div>
             </div>
-            
-            <div className="text-center">
-                    <img src={'/images/new/Billiontype.svg'} alt="ISRO" class="cursor-custom billion-ind-dream"/>
+
+            <div className="row">
+                <div className="col-md-2 col-2">
+                    <img src={'/images/sattelitetilted.png'} alt="ISRO" className="mt-5 ms-4 d-md-block d-none"/>
+                </div>
+                <div className="col-md-8 col-8">
+                    <div className="text-center">
+                        <img src={'/images/new/Billiontype.svg'} alt="ISRO" class="cursor-custom billion-ind-dream"/>
+                    </div>
+                </div>
+                <div className="col-md-2 col-2"></div>
             </div>
         </div>
     );

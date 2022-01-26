@@ -1262,8 +1262,8 @@ footer .social-links li:first-child {
 }
 
 .img-set-background{
-    background: url("../images/astro2.png") no-repeat center;
-    height: 500px;
+    background: url("../images/astro3.png") no-repeat center;
+    height: 600px;
     width: 100%;
 }
 
@@ -1608,8 +1608,8 @@ footer .social-links li:first-child {
         margin-top: 150px !important;
     }
     .isrologo-brand{
-        width: 50%;
-        margin-top: -5px;
+        width: 80%;
+        margin-top: 0px;
     }
     .ind1947-brand {
         width: 50%;
@@ -1659,12 +1659,12 @@ footer .social-links li:first-child {
     }
 
     .isrologo-brand{
-        width: 55%;
+        width: 60%;
         margin-top: -5px;
     }
     .ind1947-brand {
-        width: 50%;
-        margin-top: -20px;
+        width: 35%;
+        margin-top: -10px;
     }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
@@ -1673,6 +1673,14 @@ footer .social-links li:first-child {
         width: 220px;
         margin-left: 145px;
         background: black;
+    }
+    .isrologo-brand{
+        width: 45%;
+        margin-top: -5px;
+    }
+    .ind1947-brand {
+        width: 30%;
+        margin-top: -10px;
     }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 

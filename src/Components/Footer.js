@@ -1,19 +1,10 @@
 import React, { Component } from "react";
+import { FaBeer } from 'react-icons/fa';
+import { BsDiscord, BsTwitter, BsInstagram } from "react-icons/bs";
 
 class Footer extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const networks = this.props.data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          {/* <a href={network.url}> */}
-          <a href={'/'}>
-            <i className={network.className+' text-white'}></i>
-          </a>
-        </li>
-      );
-    });
 
     return (
       <div>
@@ -23,7 +14,23 @@ class Footer extends Component {
             <div id="go-top"></div>
             <div>
               <center>
-                <ul className="social-links text-white">{networks}</ul>
+                <ul className="social-links text-white">
+                  <li>
+                    <a className="text-white" href={"https://twitter.com/"}>
+                      <BsTwitter/>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-white" href={"https://www.instagram.com/vyomanaut.io/"}>
+                      <BsInstagram/>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-white" href={"https://discord.gg/bX6zD87e2j"}>
+                      <BsDiscord/>
+                    </a>
+                  </li>
+                </ul>
               </center>
               <center >
                 <h5 className="text-white">&copy; Copyright 2022</h5>

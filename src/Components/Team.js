@@ -23,8 +23,8 @@ function Team(props){
             <div className="col-md-5 col-5 border-bottom border-white pb-0 ">
               <div className="row">
                 <div className="col-lg-4 col-md-4 d-lg-block d-md-block d-none"><img src={'/images/ISROlogo.png'} alt="ISRO" class="isrologo-brand float-end" /></div>
-                <div className="col-lg-4 col-md-4 d-lg-block d-md-block d-none">
-                  <img src={'/images/orangeLogo.png'} alt="ISRO" class="ind1947-brand float-end" />
+                <div className="col-lg-4 col-md-4 d-lg-block d-md-block d-none text-center">
+                  <img src={'/images/orangeLogo.png'} alt="ISRO" class="ind1947-brand" />
                 </div>
                 <div className="col-lg-4 col-md-4 d-lg-block d-md-block d-none"><h1 className="text-white faq-font float-end me-4">FAQ</h1></div>
                 <div className="d-lg-none d-md-none d-block col-12">
@@ -43,7 +43,12 @@ function Team(props){
             <div className="col-md-1 col-1"></div>
             <div className="col-md-5 col-5 border-top border-white faq-part2-css">
                 <div className="text-white mt-3 cursor-custom" onClick={()=>{
-                  setFaq1(!faq1)
+                    setFaq1(!faq1);
+                    setFaq2(false);
+                    setFaq3(false);
+                    setFaq4(false);
+                    setFaq5(false);
+                    setFaq6(false);
                 }}>
                   {t('WHEN IS THE MINT DATE?')}
                 </div>
@@ -53,7 +58,14 @@ function Team(props){
                   </div>
                 ):null}
 
-                <div className="text-white mt-3 cursor-custom" onClick={()=>{setFaq2(!faq2)}}>
+                <div className="text-white mt-3 cursor-custom" onClick={()=>{
+                    setFaq2(!faq2);
+                    setFaq1(false);
+                    setFaq3(false);
+                    setFaq4(false);
+                    setFaq5(false);
+                    setFaq6(false);
+                }}>
                   {t('HOW MANY DROPS WILL THERE BE?')}
                 </div>
                 {faq2?(
@@ -62,7 +74,14 @@ function Team(props){
                   </div>
                 ):null}
 
-                <div className="text-white mt-3 cursor-custom" onClick={()=>{setFaq3(!faq3)}}>
+                <div className="text-white mt-3 cursor-custom" onClick={()=>{
+                    setFaq3(!faq3);
+                    setFaq1(false);
+                    setFaq2(false);
+                    setFaq4(false);
+                    setFaq5(false);
+                    setFaq6(false);
+                }}>
                   {t('WHAT BLOCKCHAIN WILL IT BE ON?')}
                 </div>
                 {faq3?(
@@ -71,7 +90,14 @@ function Team(props){
                   </div>
                 ):null}
 
-                <div className="text-white mt-3 cursor-custom" onClick={()=>{setFaq4(!faq4)}}>
+                <div className="text-white mt-3 cursor-custom" onClick={()=>{
+                  setFaq4(!faq4);
+                  setFaq1(false);
+                  setFaq2(false);
+                  setFaq3(false);
+                  setFaq5(false);
+                  setFaq6(false);
+                }}>
                   {t('HOW MUCH WILL IT COST TO MINT?')}
                 </div>
                 {faq4?(
@@ -81,7 +107,14 @@ For The 500 Super Geek Card, the cost is 27,000 INR`)}
                   </div>
                 ):null}
 
-                <div className="text-white  mt-3 cursor-custom" onClick={()=>{setFaq5(!faq5)}}>
+                <div className="text-white  mt-3 cursor-custom" onClick={()=>{
+                    setFaq5(!faq5);
+                    setFaq1(false);
+                    setFaq2(false);
+                    setFaq3(false);
+                    setFaq4(false);
+                    setFaq6(false);
+                }}>
                   {t('HOW MANY CAN BE MINTED PER PERSON?')}
                 </div>
                 {faq5?(
@@ -90,7 +123,14 @@ For The 500 Super Geek Card, the cost is 27,000 INR`)}
                   </div>
                 ):null}
 
-                <div className="text-white  mt-3 cursor-custom" onClick={()=>{setFaq6(!faq6)}}>
+                <div className="text-white  mt-3 cursor-custom" onClick={()=>{
+                    setFaq6(!faq6);
+                    setFaq1(false);
+                    setFaq2(false);
+                    setFaq3(false);
+                    setFaq4(false);
+                    setFaq5(false);
+                  }}>
                   {t('WHAT IS THE BENEFIT OF HOLDING SPACE GEEK CARDS?')}
                 </div>
                 {faq6?(
