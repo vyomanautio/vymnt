@@ -1492,6 +1492,9 @@ footer .social-links li:first-child {
         width: 150px;
         margin-left: -32px;
         background: black;
+        position: unset;
+        top: unset;
+        right: unset;
     }
     .billion-ind-dream{
         width: 50% !important;
@@ -1583,9 +1586,12 @@ footer .social-links li:first-child {
     .timeline-header-right{
         margin-top: -30px;
         width: 150px;
-        margin-left: -9px;
+        margin-left: unset;
         background: black;
         text-align: end;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
     .billion-ind-dream{
         width: 30% !important;
@@ -1654,8 +1660,11 @@ footer .social-links li:first-child {
     .timeline-header-right{
         margin-top: -30px;
         width: 150px;
-        margin-left: 71px;
+        margin-left: unset;
         background: black;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
 
     .isrologo-brand{
@@ -1671,8 +1680,11 @@ footer .social-links li:first-child {
     .timeline-header-right{
         margin-top: -30px;
         width: 220px;
-        margin-left: 145px;
+        margin-left: unset;
         background: black;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
     .isrologo-brand{
         width: 45%;
@@ -1685,10 +1697,13 @@ footer .social-links li:first-child {
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
     .timeline-header-right{
-        margin-top: -30px;
+        margin-top: -20px;
         width: 220px;
-        margin-left: 145px;
+        margin-left: unset;
         background: black;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
 }
 /* ################################################################################################## */
